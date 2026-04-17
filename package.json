@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "live-server",
+    "dev": "browser-sync start --server --files \"*.html, assets/css/*.css, assets/js/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Alvarog0218/mega#readme",
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "browser-sync": "^3.0.4"
   }
 }
