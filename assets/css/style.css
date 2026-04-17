@@ -1,0 +1,5 @@
+body { font-family: 'Inter', sans-serif; }
+h1, h2, h3, h4 { font-family: '"Playfair Display"', serif; }
+.gradient-bg {
+    background: linear-gradient(135deg, #1f2937 0%, #0f172a 100%);
+}
